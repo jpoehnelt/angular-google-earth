@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Google Earth AngularJS Directive </title>
+</head>
+<body ng-app="google-earth-sample">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">angular-google-earth</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="https://github.com/justinwp/angular-google-earth"><i class="fa fa-github"></i>
+                        Github</a>
+                </li>
+
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12" style="text-align: center;">
+            <h1>AngularJs Google Earth Plugin Directive</h1>
+            <p>Google Earth Plugin is deprecated!</p>
+        </div>
+    </div>
+    <div class="row" ng-controller="mainCtrl">
+        <div data-google-earth data-map-id="map3D" style="height: 500px;"></div>
+    </div>
+
+</div>
+
+<!-- jQuery imported here only for Bootstrap.js and for this sample functions. It's not needed for the directive itself. -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular-route.min.js"></script>
+<script src="ng-google-earth.js"></script>
+<script src="sample.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+    "name": "angular-google-earth",
+    "version": "0.0.1",
+    "main": "./ng-google-earth.js",
+    "homepage": "http://justinwp.github.io/angular-google-earth/",
+    "author": {
+        "name": "Justin Poehnelt",
+        "email": "Justin Poehnelt@gmail.com"
+    },
+    "keywords": [
+        "angular",
+        "angularjs",
+        "google",
+        "earth"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "angular": "~1.2.9"
+    },
+    "devDependencies": {}
+}
